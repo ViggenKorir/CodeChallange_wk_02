@@ -1,0 +1,10 @@
+.shopping-list {
+            list-style-type: none;
+            padding: 0;
+        }
+        .shopping-list li {
+            margin-bottom: 10px;
+        }
+        .shopping-list input[type="checkbox"] {
+            margin-right: 5px;
+        }
