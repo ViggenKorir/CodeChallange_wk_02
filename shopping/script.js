@@ -1,11 +1,12 @@
 function addItem() {
-    var itemInput = document.getElementById("itemInput");
-    var shoppingList = document.getElementById("shoppingList");
-    var item = itemInput.value.trim();
+    const itemInput = document.getElementById("itemInput");
+    const shoppingList = document.getElementById("shoppingList");
+    
+    const item = itemInput.value.trim();
 
     if (item !== "") {
-        var listItem = document.createElement("li");
-        var checkbox = document.createElement("input");
+        let listItem = document.createElement("li");
+        let checkbox = document.createElement("input");
         checkbox.type = "checkbox";
         checkbox.addEventListener("change", function() {
             if (this.checked) {
@@ -14,7 +15,7 @@ function addItem() {
                 listItem.classList.remove("purchased");
             }
         });
-        var label = document.createElement("label");
+        let label = document.createElement("label");
         label.textContent = item;
         listItem.appendChild(checkbox);
         listItem.appendChild(label);
@@ -24,6 +25,6 @@ function addItem() {
 }
 
 function clearList() {
-    var shoppingList = document.getElementById("shoppingList");
+    let shoppingList = document.getElementById("shoppingList");
     shoppingList.innerHTML = "";
 }

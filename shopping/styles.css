@@ -1,10 +1,17 @@
+body {
+    background-color: rgb(64, 147, 219);
+    text-align: center;
+}
+
 .shopping-list {
-            list-style-type: none;
-            padding: 0;
-        }
-        .shopping-list li {
-            margin-bottom: 10px;
-        }
-        .shopping-list input[type="checkbox"] {
-            margin-right: 5px;
-        }
+    list-style-type: none;
+    padding: 0;
+}
+
+.shopping-list li {
+    margin-bottom: 10px;
+}
+
+.shopping-list input[type="checkbox"] {
+    margin-right: 5px;
+}
