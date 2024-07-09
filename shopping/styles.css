@@ -1,0 +1,56 @@
+body {
+    background-color: aliceblue;
+    text-align: center;
+    padding-top: 60px;
+}
+
+h1 {
+    font-size: 38px;
+    padding-bottom: 10px;
+}
+
+div {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-inline: 60px;
+}
+
+ul {
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    height: 500px;
+    width: 600px;
+}
+
+#add {
+    background-color: rgba(128, 255, 0, 0.616);
+}
+
+#clear {
+    background-color: rgba(220, 20, 60, 0.603);
+}
+
+.shopping-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.shopping-list li {
+    margin-bottom: -10px;
+    padding-top: 30px;
+}
+
+.shopping-list input[type="checkbox"] {
+    margin-right: 15px;
+}
+
+#itemInput {
+    height: 30px;
+}
+
+button {
+    align-items: center;
+    height: 30px;
+    border-radius: 5px;
+    border: 5cap;
+}

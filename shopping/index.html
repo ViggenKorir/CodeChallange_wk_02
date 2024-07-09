@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Shopping List</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <h1>Shopping List</h1>
+
+    <input type="text" id="itemInput" placeholder="Enter an item">
+    <button onclick="addItem()" id="add">Add Item</button>
+    <button onclick="clearList()" id="clear">Clear List</button>
+<div class="shopping">
+    <ul class="shopping-list" id="shoppingList">
+        <!-- Items will be added here -->
+         <h1>Items</h1>
+    </ul>
+
+    <ul class="shopping-list" id="PurchasedList">
+        <!-- Purchased Items will be added here -->
+         <ol>
+            <h1>Purchased Items</h1>
+         </ol>
+    </ul>
+</div>
+    <script src="script.js"></script>
+</body>
+
+</html>
