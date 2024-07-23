@@ -1,12 +1,16 @@
 body {
-    background-color: aliceblue;
+    background: rgb(34,193,195);
+    background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+    background-repeat: repeat;
     text-align: center;
     padding-top: 60px;
+    font-size: 25px;
 }
 
 h1 {
     font-size: 38px;
     padding-bottom: 10px;
+    display: block;
 }
 
 div {
@@ -15,11 +19,17 @@ div {
     margin-inline: 60px;
 }
 
+.shopping{
+    display: flex;
+    justify-content: center
+}
+
 ul {
     background-color: rgb(255, 255, 255);
     border-radius: 20px;
     height: 500px;
     width: 600px;
+    font-size: 24px;
 }
 
 #add {
